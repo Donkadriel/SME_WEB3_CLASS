@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #reg{
+        color: red;
+    }
+
+
+
+</style>
+
+<body>
+
+    <h1 align="center">MISS 042</h1>
+    <p id="reg">Registration</p>
+    <hr>
+
+    <p>
+    <label for="teller">Bank Teller Number:</label>
+    <input type="text" id="teller" autocomplete="on">
+
+    <label for="dateofpayment">Date of payment:</label>
+    <label for="monthofpayment">Month</label>
+    <select name="monthofpayment" id="monthofpayment">
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+    </select>
+
+    <label for="yearofpayment">Year</label>
+    <select name="yearofpayment" id="yearofpayment">
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
+    </select>
+    </p>
+
+    <p>
+    <label for="branch">Branch:</label><input type="text" id="branch" autocomplete="on">
+    </p>
+
+    <p>
+    <label for="firstname">Firstname:</label><input type="text" id="firstname" autocomplete="on">
+    <label for="middlename">Middlename:</label><input type="text" id="middlename" autocomplete="on">
+    <label for="lastname">Lastname:</label><input type="text" id="lastname" autocomplete="on">
+    </p>
+
+    <p>
+    <label for="dob">Date of Birth</label><input type="text" id="dob" min="december" max="january" value="january">
+
+    <label for="month">Month</label>
+    <select name="month" id="month">
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">Decembr</option>
+    </select>
+    <label for="year">Year</label>
+    <select name="year" id="year">
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
+        <option value="2009">2009</option>
+    </select>
+
+    <label for="maritalstatus">Marital Status</label>
+    <select name="maritalstatus" id="maritalstatus">
+        <option value="single">Single</option>
+        <option value="married">married</option>
+        <option value="pleaseselect" selected>Pease Select</option>
+    </select>
+
+    </p>
+
+    <p>
+    <label for="mobilephone">Mobile Phone Number</label><input type="number" id="mobilephone" autocomplete="on" pattern="[0-9]{11}">
+    <label for="homephone">Home Phone Number:</label><input type="number" id="homephone" autocomplete="on" pattern="[0-9]{11}">
+    <label for="email">Email</label><input type="email" id="email" autocomplete="on">
+    </p>
+
+    <p>
+    <label for="Contactaddress">Contact Address:</label><br>
+    <input type="text" id="Contactaddress" autocomplete="on" style="width: 100%;">
+    </p>
+    
+    <p>
+    <label for="Contactaddress2">Contact Address 2:</label><br><input type="text" id="Contactaddress2" autocomplete="on" style="width: 100%;">
+    </p>
+
+    <label for="soo">State of Origin:</label><input type="text" id="soo" autocomplete="on">
+    
+    <p>Registration Step 2</p>
+    <hr>
+
+    <p>
+    <label for="guardian">Guardian Next of Kin:</label><input type="text" id="guardian" autocomplete="on">
+    </p>
+
+    <p>
+    <label for="">Relationship of Guardian/Next of Kin:</label><input type="text" autocomplete="on">
+    <label for="occupation">Occupation</label><input type="text" id="occupation" autocomplete="on">
+    </p>
+
+    <p>
+    <label for="guardianaddress">Address of Guardians/Next of kin:</label><input type="text" id="guardianaddress" autocomplete="on">
+    </p>
+    <label for="guardianphone">Phone No. of Guardian/Next of kin:</label><input type="number" id="guardianphone" autocomplete="on" pattern="[0-9]{11}">
+
+    <p>Registration Step 3</p>
+    <hr>
+
+    <label for="about">Tell us about yourself in less than 200 words</label>
+    <br>
+    <textarea name="about" id="about" placeholder="ygayu" cols="50" rows="20"></textarea>
+
+    <p>Registration Step 4</p>
+    <hr>
+
+     <p><input type="checkbox" name="" id=""> I agree that all the information provided above is accurate. i have read and understood the rules and regulations set forth by the Miss 042 Peageant committe and agree to abide by them.
+    </p>
+
+     <p>
+        I further agree to abide the rules and regulations set forth the Miss 042 Peagent committe. I will accept the decision of the judges as final and binding, and I understand that such decisions are not questionable.
+    </p>
+    <p>
+        I hereby consent that the organisers of the Miss 042 Peageant reserve the right to use all information: person or general, text, images submited by me before or during the peagent in any meduim, print or electronic in the advancement of the Miss 042 Peageant.
+    </p>
+    <button type="submit">submit</button>
+    <button type="submit" formaction="submit_info.html" formmethod="post">Post</button>
+    <button type="reset">reset</button>
+
+    <hr>
+    <p><a href="assign1.html">Back to Home</a></p>
+    
+    &lt;&lt;&lt; &copy; Dennis &gt;&gt;&gt;
+</body>
+</html>
