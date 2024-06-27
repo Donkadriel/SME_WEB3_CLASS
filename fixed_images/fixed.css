@@ -1,0 +1,82 @@
+body{
+    color: red;
+    background-image: url(img_sally/car1.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.div1{
+    color: red;
+    background-image: url(img_sally/sally_1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div2{
+    color: blue;
+    background-image: url(./img_sally/sally_2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.div3{
+    color: gold;
+    background-image: url(img_sally/sally_3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.div4{
+    color:black;
+    background-image: url(img_sally/sally_4.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.div5{
+    color: violet;
+    background-image: url(img_sally/sally_5.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.div6{
+    color: yellow;
+    background-image: url(img_sally/sally_6.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.div7{
+    color: pink;
+    background-image: url(img_sally/sally_7.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.div8{
+    color: green;
+    background-image: url(img_sally/sally_8.jpg);
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    margin-right: 10%;
+    margin-left: 10%;
+}
